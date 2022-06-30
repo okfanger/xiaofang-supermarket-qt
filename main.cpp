@@ -8,10 +8,10 @@ int main(int argc, char *argv[])
     #endif
     QApplication a(argc, argv);
     createConnection();
-//    MainWindow w;
-//    w.show();
-    startwidget w;
+    MainWindow w;
     w.show();
+//    startwidget w;
+//    w.show();
 
     return a.exec();
 }

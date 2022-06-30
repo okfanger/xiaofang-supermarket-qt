@@ -8,18 +8,17 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     // 定义窗口
-    tabWidgetList[0] = new sellwidget();
-    tabWidgetList[1] = new buywidget();
-    tabWidgetList[2] = new memberwidget();
-    tabWidgetList[3] = new aboutus();
+    tabWidgetList[0] = new buywidget();
+    tabWidgetList[1] = new memberwidget();
+    tabWidgetList[2] = new aboutus();
 
     // 循环加入页面
-    for (int i=0;i<4;i++){
+    for (int i=0;i<3;i++){
         ui->tabWidget->addTab(tabWidgetList[i], QString(tabWidgetTitleList[i]));
     }
 
     //设置默认页面
-    ui->tabWidget->setCurrentIndex(2);
+    ui->tabWidget->setCurrentIndex(1);
 
 
 }

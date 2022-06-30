@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 
-#include "sellwidget.h"
 #include "buywidget.h"
 #include "memberwidget.h"
 #include "aboutus.h"
@@ -25,8 +24,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QWidget* tabWidgetList[4];
-    const char* tabWidgetTitleList[4] = {"卖货", "进货", "会员管理", "关于我们"};
+    QWidget* tabWidgetList[3];
+    const char* tabWidgetTitleList[3] = {"进货", "会员管理", "关于我们"};
 };
 
 #endif // MAINWINDOW_H
