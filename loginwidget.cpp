@@ -5,13 +5,13 @@
 #include <QSqlQuery>
 #include <QMessageBox>
 #include <QCryptographicHash>  //md5加密的库
-
+#include "mainwindow.h"
 loginwidget::loginwidget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::loginwidget)
 {
     ui->setupUi(this);
-    mw = new mainwindow();
+    mw = new MainWindow();
 }
 
 loginwidget::~loginwidget()
