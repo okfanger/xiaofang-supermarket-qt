@@ -22,7 +22,9 @@ SOURCES += main.cpp \
     genderbuttondelegate.cpp \
     startwidget.cpp \
     loginwidget.cpp \
-    registerwidget.cpp
+    registerwidget.cpp \
+    readonlydelegate.cpp \
+    addmemeberwidget.cpp
 
 HEADERS  += \
     sqlconnection.h \
@@ -34,7 +36,9 @@ HEADERS  += \
     genderbuttondelegate.h \
     startwidget.h \
     loginwidget.h \
-    registerwidget.h
+    registerwidget.h \
+    readonlydelegate.h \
+    addmemeberwidget.h
 
 FORMS    += \
     mainwindow.ui \
@@ -44,4 +48,5 @@ FORMS    += \
     aboutus.ui \
     startwidget.ui \
     loginwidget.ui \
-    registerwidget.ui
+    registerwidget.ui \
+    addmemeberwidget.ui
