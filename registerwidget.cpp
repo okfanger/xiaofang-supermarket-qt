@@ -40,8 +40,7 @@ void registerwidget::on_pushButton_clicked()
         if (!query.exec()) { // 如果执行失败，就操作
              qDebug() << Q_FUNC_INFO << query.lastError().text() << query.lastQuery();
         } else {
-        QMessageBox::information(this,"提示", "注册成功！", QMessageBox::Close);
-
+            QMessageBox::information(this,"提示", "注册成功！", QMessageBox::Close);
         }
     }
 }
