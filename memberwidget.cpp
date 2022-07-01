@@ -120,3 +120,8 @@ void memberwidget::on_lineEdit_2_textChanged(const QString &arg1)
 {
     memberwidget::selectByFilter();
 }
+
+void memberwidget::on_pushButton_6_clicked()
+{
+    memberwidget::selectByFilter();
+}

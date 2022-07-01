@@ -41,6 +41,7 @@ void loginwidget::on_pushButton_clicked()
         } else if(query.next()) {
             QMessageBox::information(this,"提示", "登录成功！", QMessageBox::Close);
             this->hide();
+            emit hideWindow();
             mw->show();
         } else {
             QMessageBox::warning(this,"提示", "用户名或密码错误", QMessageBox::Close);

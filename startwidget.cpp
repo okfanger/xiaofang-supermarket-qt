@@ -21,3 +21,7 @@ startwidget::~startwidget()
     delete ui;
 
 }
+
+void startwidget::receiveHide(){
+    this->hide();
+}

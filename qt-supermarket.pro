@@ -15,7 +15,6 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     mainwindow.cpp \
-    sellwidget.cpp \
     buywidget.cpp \
     memberwidget.cpp \
     aboutus.cpp \
@@ -29,7 +28,6 @@ SOURCES += main.cpp \
 HEADERS  += \
     sqlconnection.h \
     mainwindow.h \
-    sellwidget.h \
     buywidget.h \
     memberwidget.h \
     aboutus.h \
@@ -42,7 +40,6 @@ HEADERS  += \
 
 FORMS    += \
     mainwindow.ui \
-    sellwidget.ui \
     buywidget.ui \
     memberwidget.ui \
     aboutus.ui \
@@ -50,3 +47,8 @@ FORMS    += \
     loginwidget.ui \
     registerwidget.ui \
     addmemeberwidget.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    avatar.qrc

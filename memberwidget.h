@@ -35,6 +35,8 @@ private slots:
     void on_lineEdit_2_textChanged(const QString &arg1);
 
     void selectByFilter();
+    void on_pushButton_6_clicked();
+
 private:
     Ui::memberwidget *ui;
     QSqlTableModel* memberModel;

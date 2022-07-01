@@ -25,7 +25,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QWidget* tabWidgetList[3];
-    const char* tabWidgetTitleList[3] = {"进货", "会员管理", "关于我们"};
+    const char* tabWidgetTitleList[3] = {"进货", "会员管理", "关于作者"};
 };
 
 #endif // MAINWINDOW_H

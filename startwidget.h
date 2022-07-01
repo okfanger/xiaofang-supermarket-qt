@@ -17,6 +17,10 @@ public:
     explicit startwidget(QWidget *parent = 0);
     ~startwidget();
 
+
+private slots:
+    void receiveHide();
+
 private:
     Ui::startwidget *ui;
     QWidget* loginWidget;
